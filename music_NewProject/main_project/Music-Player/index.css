@@ -1,0 +1,124 @@
+.cnt{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+}
+#search-field{
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 22px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+header {
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    z-index: 1000; /* Ensures the header is above other content */
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+  
+header a:hover{
+    color: brown;
+    text-transform: uppercase;
+}
+
+.div1{
+    height: 590px;
+   background-image: url(./image/back.jpg); 
+    border-radius: 50px;
+
+   width: 30%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#song-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.div1 .image{
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 290px;
+    height: 300px;
+    display: flex;
+}
+
+.div1 .image:hover{
+    width:300px;
+    height: 320px;
+}
+
+.div1 p{
+    color: rgb(224, 233, 238);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.div1 button{
+     margin-top: 20px;
+     padding: 10px;
+     border-radius: 30px;
+     color: white;
+     background-color: rgb(113, 113, 162);
+}
+
+.div1 button:hover{
+    background-color: royalblue;
+    color: rgb(11, 16, 16);
+}
+
+.main{
+ display: flex;  
+  
+}
+
+header div ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header div:hover ul {
+    display: block;
+}
+
+header div ul li {
+    padding: 8px 16px;
+}
+
+header div ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+header div ul li a:hover {
+    background-color: #ddd;
+}
